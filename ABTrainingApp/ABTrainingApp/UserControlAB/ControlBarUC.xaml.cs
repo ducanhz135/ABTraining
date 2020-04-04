@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ABTrainingApp.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,12 @@ namespace ABTrainingApp.UserControlAB
     /// </summary>
     public partial class ControlBarUC : UserControl
     {
+        //public ControlBarViewModel Viewmodel { get; set; }
         public ControlBarUC()
         {
+
             InitializeComponent();
+            //this.DataContext = Viewmodel = new ControlBarViewModel();
         }
     }
 }

@@ -3,4 +3,5 @@
                     xmlns:viewmodel="clr-namespace:ABTrainingApp.ViewModel"
                     xmlns:local="clr-namespace:ABTrainingApp.ResourceXaml">
     <viewmodel:MainViewModel x:Key="MainVM"></viewmodel:MainViewModel>
+    <viewmodel:ControlBarViewModel x:Key="CBVM"></viewmodel:ControlBarViewModel>
 </ResourceDictionary>
