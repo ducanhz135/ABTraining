@@ -11,6 +11,7 @@ namespace ABTrainingApp.ViewModel
 {
     public class ControlBarViewModel: BaseViewModel
     {
+        // Command
         public ICommand CloseWindowCommand { get; set; }
         public ICommand MaximizeWindowCommand { get; set; }
         public ICommand MinimizeWindowCommand { get; set; }
